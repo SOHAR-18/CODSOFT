@@ -1,0 +1,140 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: darkgrey;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Section Headings */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 2rem;
+    background-color: gainsboro;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 2rem;
+    background-color: silver;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#skills li {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+#Skills {
+    padding: 2rem;
+    background-color: silver;
+}
+
+#Skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#Skills li {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.project {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    background-color: silver;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume {
+    padding: 2rem;
+    text-align: center;
+    background-color: silver;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
